@@ -74,6 +74,7 @@ void setup() {
     RUN_TEST(test_function_aes_ecb_enc);
     RUN_TEST(test_function_aes_ecb_dec);
     RUN_TEST(test_function_aes_cbc_enc);
+    RUN_TEST(test_function_aes_cbc_dec);
     UNITY_END();
 }
 
