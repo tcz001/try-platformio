@@ -2,6 +2,7 @@
 
 #include <Arduino.h>
 #include "calculator.h"
+#include "aes.h"
 
 Calculator calc;
 
