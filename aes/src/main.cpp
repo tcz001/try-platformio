@@ -15,8 +15,8 @@ void loop() {
     uint8_t in[64] = "Hello World";
     uint8_t *out;
     uint8_t *buffer;
-    buffer = (unsigned uint8_t *)malloc(64 * sizeof(uint8_t));
-    out = (unsigned uint8_t *)malloc(64 * sizeof(uint8_t));
+    buffer = (uint8_t *)malloc(64 * sizeof(uint8_t));
+    out = (uint8_t *)malloc(64 * sizeof(uint8_t));
 
     Serial.println("Encrypt...");
     aes::AES128_CBC_encrypt_buffer(buffer, in, 64, key, iv);
