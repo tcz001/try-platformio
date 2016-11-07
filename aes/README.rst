@@ -13,14 +13,12 @@ How to test PlatformIO based project
 ====================================
 
 1. `Install PlatformIO <http://docs.platformio.org/en/stable/installation.html>`_
-2. Download `source code with examples <https://github.com/platformio/platformio-examples/archive/develop.zip>`_
-3. Extract ZIP archive
-4. Run these commands:
+2. Run these commands:
 
 .. code-block:: bash
 
     # Change directory to example
-    > cd platformio-examples/unit-testing/calculator
+    > cd aes
 
     # Test project
     > platformio test
